@@ -1,0 +1,187 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background: #ececec;
+}
+
+p{
+	margin: 0px;
+	color: #666;
+}
+
+.navbar-default {
+    background-color: #eb974e;
+	border-bottom: 3px solid #ca7e3c;
+	border-radius: 0px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #B16D32;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #ca7e3c;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+	transition: 0.3s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	 color: #fff;
+    background-color: #ca7e3c;
+}
+
+.most{
+	border-radius: 3px;
+	padding: 8px;
+}
+
+.title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin:8px;
+	padding: 0px;
+	text-shadow: 1px 1px 1px #B16D32;
+	float: left;
+}
+
+.title_row{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin:8px;
+	padding: 0px;
+	text-shadow: 1px 1px 1px #777;
+	float: left;
+}
+
+.col-wrap-in{
+	background: #fff;
+	border-radius: 3px;
+	margin: 8px 0px 0px 0px;
+	position:relative;
+}
+
+.img-col{
+	float: left;
+	width: 32px;
+}
+
+
+@media screen and (min-width: 768px){
+	.carousel-caption {
+		right: 0%!important;
+		left: 0%!important;
+		bottom: 0px;
+		padding-bottom: 30px;
+	}
+}
+
+
+.carousel-caption{
+	text-align: left;
+	padding: 10px;
+	background: rgba(255,255,255,0.6);
+}
+
+.carousel-caption h3{
+	color: #333;
+	text-shadow: none;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn-game{
+	border-radius: 3px;
+	background: #eb974e;
+	color: #fff;
+	border-bottom: 3px solid #ca7e3c;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #B16D32;
+	padding: 10px 20px 10px 20px;
+	width:100%;
+	transition: 0.3s;
+}
+
+.btn-game:hover{
+	background: #ca7e3c;
+	color: #fff;
+}
+
+.starlist{
+	position: absolute;
+    top: 16px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    font-size: 10px;
+    color: #995e10;
+    font-weight: bold;
+}
+
+.pop td{
+	position: relative;
+}
+
+.table{
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: rgba(255,255,255,0.5);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #CA7E3C;
+}
+
+.bodem{
+	margin-bottom: 15px;
+}
+
+.carousel-inner img{
+	border-radius: 3px!important;
+}
+
+.col-wrap-in a{
+	color: #666;
+	text-decoration: none;
+	display: block;
+}
+
+.edit a{
+	padding: 12px;
+}
+
+.img_placeholder{
+	height: 200px;
+}
+
+.image {
+    display: none;
+  position:absolute;
+  top:0px;
+  z-index:334;
+  width:100%;
+  left:0px;
+}
+    
+.edit td a:hover + .image {
+    display: block!important;
+    width:100%!important;
+}
+
+.edit tbody > tr > td{
+	padding:0px!important;
+}
+.svg{
+	fill: #fff;
+}
